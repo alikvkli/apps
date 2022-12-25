@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "apps",
-    "slug": "apps",
+    "name": "Cepte Saglik",
+    "slug": "ceptesaglik",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ceptesaglik"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ali_kvkli.ceptesaglik"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "00e946c1-1b31-421f-99e2-8a64ebbe2faa"
+      }
     }
   }
 }
